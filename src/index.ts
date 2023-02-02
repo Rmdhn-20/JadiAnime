@@ -135,7 +135,7 @@ export const JadiAnime = async (img: string, opts?: opts) => {
     return {
         code : 200, 
         img: extra.img_urls[1] as string,
-        videoUrl: qqmode === 'china' ? (extra.video_urls[0] as string) : undefined,
-        singleImg: qqmode === 'china' ? (extra.img_urls[2] as string) : undefined, 
+        videoUrl: qqmode === 'world' ? (extra.video_urls[0] as string) : undefined,
+        singleImg: qqmode === 'world' ? (extra.img_urls[2] as string) : undefined, 
     }
 };
